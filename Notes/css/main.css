@@ -1,0 +1,137 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #bcbee7;
+}
+
+a, a:visited {
+    color: inherit;
+}
+
+.notes {
+    display: flex;
+    height: 100%;
+}
+
+.notes * {
+    font-family:  Helvetica;
+}
+
+.notes_listing {
+    flex-shrink: 0;
+    overflow-y: auto;
+    padding: 5px;
+    width: 98%;
+    height: 100%;
+    scrollbar-width: none;
+    background-color: #bcbee7;
+}
+
+.notes__sidebar {
+    border-right: 1px solid #2f36ba;
+    flex-shrink: 0;
+    overflow-y: auto;
+    width: 50%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+
+.notes__list_item__selected {
+    background: #fff;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.notes__small-title,
+.notes__small-updated {
+    padding: 10px;
+}
+
+.notes__small-title {
+    font-size: 1.2em;
+    color: #2f36ba;
+    font-family: 'Courier New';
+}
+
+.notes__small-body {
+    padding: 0 10px;
+    color: black;
+    word-wrap: break-word;
+}
+
+.notes__small-updated {
+    color: #aaaaaa;
+    font-style: italic;
+    text-align: right;
+}
+
+.note .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.notes__preview {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em;
+    flex-grow: 1;
+}
+
+.notes__body {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+
+.notes__body {
+    flex-grow: 1;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 2em;
+    resize: none;
+}
+
+
+.side {
+    padding-top: 100px; 
+    overflow: auto; }
+    
+.side-content {
+    background-color: #bcbee7;
+    margin: auto;
+    border: 0px solid #888;}
+
+.side-header {
+    color: #2f36ba;}
+.form-container {
+    max-width: 100%;
+    background-color: #bcbee7;}
+.form-container input[type=text], .form-container textarea[type=text] {
+    width: 92%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #fff;
+    resize: none;}
+.form-container input[type=text]:focus, .form-container textarea[type=text]:focus {
+    background-color: #bcbee7;
+    outline: none;}
+.form-container .btn {
+    background-color: #bcbee7;
+    font-style: bold;
+    color: #2f36ba;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;}
+.form-container .btn:hover, .open-button:hover {
+    opacity: 2;}

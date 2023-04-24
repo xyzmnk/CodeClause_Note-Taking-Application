@@ -1,0 +1,34 @@
+body {
+    background-color: #bcbee7;
+}
+#frm{
+    border: solid #2f36ba 2px;
+    width: 30%;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 50px;
+    color: #2f36ba;
+}
+#user,#pass{
+    width: 92%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #fff;
+    resize: none;
+    background-color: #fff;
+}
+#btn{
+    background-color: #2f36ba;
+    color: #fff;
+    padding: 10px 14px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    font-weight: bold;
+}
+#btn:hover{
+    opacity: 2;
+}
